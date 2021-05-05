@@ -1,0 +1,31 @@
+@import 'styles/shared';
+
+.video {
+  position: fixed;
+  z-index: -1;
+  top: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.playBtn {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: url('https://tracepaul.s3.eu-central-1.amazonaws.com/headphones.svg'), auto;
+  svg {
+    opacity: 0.5;
+    margin-left: 5px;
+  }
+}
