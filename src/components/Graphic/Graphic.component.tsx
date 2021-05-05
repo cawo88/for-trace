@@ -6,10 +6,9 @@ import { animated } from 'react-spring';
 
 const Graphic = hoc(useGraphicProps, ({ x }) => {
   return (
-    <svg viewBox="0 0 353.23 490.28" height="353.23" width="490.28">
+    <svg viewBox="0 0 353.23 490.28" width="180">
       <animated.path
-        fill="white"
-        fill-opacity="0.95"
+        fill="rgba(255,255,255,0.9)"
         d={x.to({
           range: [0, 1],
           output: [
@@ -19,8 +18,7 @@ const Graphic = hoc(useGraphicProps, ({ x }) => {
         })}
       />
       <animated.path
-        fill="white"
-        fill-opacity="0.95"
+        fill="rgba(255,255,255,0.9)"
         d={x.to({
           range: [0, 1],
           output: [
@@ -30,8 +28,7 @@ const Graphic = hoc(useGraphicProps, ({ x }) => {
         })}
       />
       <animated.path
-        fill="white"
-        fill-opacity="0.95"
+        fill="rgba(255,255,255,0.9)"
         d={x.to({
           range: [0, 1],
           output: [
@@ -41,8 +38,7 @@ const Graphic = hoc(useGraphicProps, ({ x }) => {
         })}
       />
       <animated.path
-        fill="white"
-        fill-opacity="0.95"
+        fill="rgba(255,255,255,0.9)"
         d={x.to({
           range: [0, 1],
           output: [

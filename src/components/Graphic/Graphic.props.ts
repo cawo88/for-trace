@@ -10,7 +10,6 @@ interface GraphicProps {}
 const useGraphicProps = (props: GraphicProps) => {
   const [active, setActive] = useState(false);
   const { x } = useSpring({ config: { duration: 600 }, x: active ? 1 : 0 });
-  const { y } = useSpring({ config: { duration: 800 }, y: active ? 1 : 0 });
   useEffect(() => {
     const id = setTimeout(() => {
       setActive(!active);
@@ -25,7 +24,6 @@ const useGraphicProps = (props: GraphicProps) => {
   return {
     ...props,
     x,
-    y,
   };
 };
 
