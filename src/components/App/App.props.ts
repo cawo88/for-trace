@@ -8,7 +8,7 @@ interface AppProps {}
  * <App /> Props
  */
 const useAppProps = (props: AppProps) => {
-  const { isRestart, setIsRestart, isPlaying, setIsPlaying } = useVideoStore();
+  const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay } = useVideoStore();
 
   const animatedArticleFadeOutStyle = useSpring({
     config: config.slow,
@@ -45,6 +45,7 @@ const useAppProps = (props: AppProps) => {
     animatedOverlayFadeInStyle,
     animatedOverlayFadeOutStyle,
     isPlaying,
+    isAutoPlay,
   };
 };
 

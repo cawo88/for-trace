@@ -3,9 +3,11 @@ import React, { createContext, useContext, useState, useCallback, useRef } from 
 interface VideoStoreParams {
   videoRef: React.MutableRefObject<HTMLVideoElement | null>;
   isRestart: boolean;
-  setIsRestart: (isRestart: boolean) => void;
   isPlaying: boolean;
+  isAutoPlay: boolean;
+  setIsRestart: (isRestart: boolean) => void;
   setIsPlaying: (isPlaying: boolean) => void;
+  setIsAutoPlay: (isAutoPlay: boolean) => void;
 }
 
 const VideoStoreContext = createContext<VideoStoreParams>({} as VideoStoreParams);
@@ -20,6 +22,7 @@ const VideoProvider = ({ children }: any) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isRestart, setIsRestart] = useState<boolean>(false);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
+  const [isAutoPlay, setIsAutoPlay] = useState<boolean>(true);
 
   console.log('video ref', videoRef);
 
@@ -30,6 +33,7 @@ const VideoProvider = ({ children }: any) => {
       if (videoRef.current) {
         videoRef.current.pause();
         videoRef.current.currentTime = 0;
+        setIsAutoPlay(false);
       }
     },
     [setIsRestart],
@@ -52,8 +56,10 @@ const VideoProvider = ({ children }: any) => {
         videoRef,
         isRestart,
         isPlaying,
+        isAutoPlay,
         setIsRestart: handleSetIsRestart,
         setIsPlaying: handleSetIsPlaying,
+        setIsAutoPlay,
       }}
     >
       {children}

@@ -14,6 +14,7 @@ const App = hoc(
     animatedOverlayFadeInStyle,
     animatedOverlayFadeOutStyle,
     isPlaying,
+    isAutoPlay,
   }) => {
     return (
       <section className={styles.container}>
@@ -33,7 +34,12 @@ const App = hoc(
             </article>
           </animated.main>
         </animated.div>
-        <Video src="https://tracepaul.s3.eu-central-1.amazonaws.com/video.mp4" isAutoPlay isMute={!isPlaying} isLoop />
+        <Video
+          src="https://tracepaul.s3.eu-central-1.amazonaws.com/video.mp4"
+          isAutoPlay={isAutoPlay}
+          isMute={!isPlaying}
+          isLoop
+        />
       </section>
     );
   },
