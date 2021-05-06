@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useVideoStore } from '../../hooks';
 
 interface VideoProps {
   isAutoPlay?: boolean;
@@ -11,11 +11,10 @@ interface VideoProps {
  * <Video /> Props
  */
 const useVideoProps = (props: VideoProps) => {
-  const [isPlaying, setPlaying] = useState<boolean>(false);
+  const { videoRef } = useVideoStore();
   return {
     ...props,
-    isPlaying,
-    setPlaying,
+    videoRef,
   };
 };
 

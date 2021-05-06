@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './App';
+import { App } from './components/App';
 import reportWebVitals from './reportWebVitals';
+import { VideoProvider } from './hooks';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <VideoProvider>
+      <App />
+    </VideoProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
