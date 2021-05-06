@@ -30,6 +30,7 @@ const useVideoProps = (props: VideoProps) => {
   return {
     ...props,
     videoRef,
+    isPlaying,
   };
 };
 
