@@ -12,8 +12,10 @@ interface VideoProps {
  * <Video /> Props
  */
 const useVideoProps = (props: VideoProps) => {
-  const { videoRef, isPlaying } = useVideoStore();
+  const { videoRef, isPlaying, setIsEnd } = useVideoStore();
   const { windowHeight } = useWindowSize(); // windowWidth,
+
+  console.log('videoRef', videoRef);
 
   useEffect(() => {
     if (typeof document !== 'undefined' && videoRef.current && isPlaying) {
@@ -24,6 +26,8 @@ const useVideoProps = (props: VideoProps) => {
       // videoRef.current.style.top = '0';
       // videoRef.current.style.left = '0';
       // videoRef.current.style.transform = 'translate(0,0)';
+    } else if (videoRef.current) {
+      videoRef.current.style.height = 'auto';
     }
   });
 
@@ -31,6 +35,7 @@ const useVideoProps = (props: VideoProps) => {
     ...props,
     videoRef,
     isPlaying,
+    setIsEnd,
   };
 };
 

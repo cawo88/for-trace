@@ -5,9 +5,11 @@ interface VideoStoreParams {
   isRestart: boolean;
   isPlaying: boolean;
   isAutoPlay: boolean;
+  isEnd: boolean;
   setIsRestart: (isRestart: boolean) => void;
   setIsPlaying: (isPlaying: boolean) => void;
   setIsAutoPlay: (isAutoPlay: boolean) => void;
+  setIsEnd: (isEnd: boolean) => void;
 }
 
 const VideoStoreContext = createContext<VideoStoreParams>({} as VideoStoreParams);
@@ -23,31 +25,51 @@ const VideoProvider = ({ children }: any) => {
   const [isRestart, setIsRestart] = useState<boolean>(false);
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [isAutoPlay, setIsAutoPlay] = useState<boolean>(true);
+  const [isEnd, setIsEnd] = useState<boolean>(false);
 
-  console.log('video ref', videoRef);
+  console.log('video ref', videoRef, 'isRestart', isRestart, 'is Playing', isPlaying);
 
   const handleSetIsRestart = useCallback(
     (isRestart) => {
       setIsRestart(isRestart);
-
+      if (isEnd) {
+        setIsEnd(false);
+      }
       if (videoRef.current) {
         videoRef.current.pause();
         videoRef.current.currentTime = 0;
         setIsAutoPlay(false);
       }
     },
-    [setIsRestart],
+    [setIsRestart, isEnd],
   );
 
   const handleSetIsPlaying = useCallback(
     (isPlaying) => {
       setIsPlaying(isPlaying);
       if (videoRef.current) {
+        console.log('is play');
+        videoRef.current.currentTime = 0;
         videoRef.current.play();
         videoRef.current.controls = true;
+        setIsAutoPlay(false);
       }
     },
     [setIsPlaying],
+  );
+
+  const handleOnEnd = useCallback(
+    (isEnd) => {
+      setIsEnd(isEnd);
+      setIsRestart(false);
+      setIsPlaying(false);
+      setIsAutoPlay(true);
+      if (videoRef.current) {
+        videoRef.current.currentTime = 0;
+        videoRef.current.play();
+      }
+    },
+    [setIsEnd],
   );
 
   return (
@@ -57,9 +79,11 @@ const VideoProvider = ({ children }: any) => {
         isRestart,
         isPlaying,
         isAutoPlay,
+        isEnd,
         setIsRestart: handleSetIsRestart,
         setIsPlaying: handleSetIsPlaying,
         setIsAutoPlay,
+        setIsEnd: handleOnEnd,
       }}
     >
       {children}

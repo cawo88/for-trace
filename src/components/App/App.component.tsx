@@ -15,6 +15,7 @@ const App = hoc(
     animatedOverlayFadeOutStyle,
     isPlaying,
     isAutoPlay,
+    isEnd,
   }) => {
     return (
       <section className={styles.container}>
@@ -27,8 +28,12 @@ const App = hoc(
             <article className={styles.article}>
               <h1>
                 Liebe soll dich begleiten <br />
-                <button onClick={() => setIsRestart(true)}>
-                  <b>Play video</b>
+                <button
+                  onClick={() => {
+                    setIsRestart(true);
+                  }}
+                >
+                  <b>{isEnd ? 'replay' : 'play'}</b>
                 </button>
               </h1>
             </article>
@@ -38,7 +43,7 @@ const App = hoc(
           src="https://tracepaul.s3.eu-central-1.amazonaws.com/video.mp4"
           isAutoPlay={isAutoPlay}
           isMute={!isPlaying}
-          isLoop
+          isLoop={!isPlaying}
         />
       </section>
     );

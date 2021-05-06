@@ -3,7 +3,7 @@ import { useVideoProps } from './Video.props';
 import { hoc } from '../../ultility/hoc';
 import styles from './Video.module.scss';
 
-const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, videoRef }) => {
+const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, videoRef, setIsEnd }) => {
   return (
     <section className={styles.container}>
       <div className={styles.controller}></div>
@@ -16,6 +16,7 @@ const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, 
         loop={isLoop}
         controlsList="nodownload"
         disablePictureInPicture
+        onEnded={() => setIsEnd(true)}
       >
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
