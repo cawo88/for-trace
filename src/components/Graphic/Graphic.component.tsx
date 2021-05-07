@@ -6,7 +6,7 @@ import { animated } from 'react-spring';
 
 const Graphic = hoc(useGraphicProps, ({ x }) => {
   return (
-    <svg viewBox="0 0 353.23 490.28" width="180">
+    <svg viewBox="0 0 353.23 490.28" width="160">
       <animated.path
         fill="rgba(255,255,255,0.9)"
         d={x.to({

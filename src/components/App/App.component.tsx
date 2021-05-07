@@ -26,16 +26,26 @@ const App = hoc(
           <animated.main className={styles.main} style={animatedArticleFadeStyle}>
             <Graphic />
             <article className={styles.article}>
-              <h1>
-                Liebe soll dich begleiten <br />
-                <button
-                  onClick={() => {
-                    setIsRestart(true);
-                  }}
-                >
-                  <b>{isEnd ? 'replay' : 'play'}</b>
-                </button>
-              </h1>
+              <div className="mt-3" />
+
+              {isEnd ? (
+                <h1 className={styles.heading}>
+                  <span>Paul</span>&nbsp;
+                  <small>,1986-2021</small>
+                </h1>
+              ) : (
+                <h1 className={styles.heading}>Liebe soll dich begleiten</h1>
+              )}
+
+              <div className="mb-4" />
+              <button
+                className={styles.button}
+                onClick={() => {
+                  setIsRestart(true);
+                }}
+              >
+                {isEnd ? 'replay' : 'play '}
+              </button>
             </article>
           </animated.main>
         </animated.div>
