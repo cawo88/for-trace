@@ -5,6 +5,7 @@ import styles from './App.module.scss';
 import { Video } from '.././Video';
 import { Graphic } from '.././Graphic';
 import { animated } from 'react-spring';
+import { Trail } from '.././Trail';
 
 const App = hoc(
   useAppProps,
@@ -24,29 +25,32 @@ const App = hoc(
           style={isPlaying ? animatedOverlayOnPlayStyle : animatedOverlayOnRestartFadeStyle}
         >
           <animated.main className={styles.main} style={animatedArticleFadeStyle}>
-            <Graphic />
-            <article className={styles.article}>
-              <div className="mt-3" />
+            <Trail open>
+              <Graphic />
 
-              {isEnd ? (
-                <h1 className={styles.heading}>
-                  <span>Paul</span>&nbsp;
-                  <small>,1986-2021</small>
-                </h1>
-              ) : (
-                <h1 className={styles.heading}>Liebe soll dich begleiten</h1>
-              )}
+              <article className={styles.article}>
+                <div className="mt-3" />
 
-              <div className="mb-4" />
-              <button
-                className={styles.button}
-                onClick={() => {
-                  setIsRestart(true);
-                }}
-              >
-                {isEnd ? 'replay' : 'play '}
-              </button>
-            </article>
+                {isEnd ? (
+                  <h1 className={styles.heading}>
+                    <span>Paul</span>&nbsp;
+                    <small>,1986-2021</small>
+                  </h1>
+                ) : (
+                  <h1 className={styles.heading}>Liebe soll dich begleiten</h1>
+                )}
+
+                <div className="mb-4" />
+                <button
+                  className={styles.button}
+                  onClick={() => {
+                    setIsRestart(true);
+                  }}
+                >
+                  {isEnd ? 'replay' : 'play '}
+                </button>
+              </article>
+            </Trail>
           </animated.main>
         </animated.div>
         <Video

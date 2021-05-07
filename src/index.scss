@@ -12,6 +12,7 @@ body {
   background-color: black;
   overflow-x: hidden;
   overflow-y: scroll;
+  color: white;
   @include respond-to('sm') {
     overflow: hidden;
   }
