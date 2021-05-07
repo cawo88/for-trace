@@ -33,7 +33,10 @@ const VideoProvider = ({ children }: any) => {
     (isRestart) => {
       setIsRestart(isRestart);
       if (isEnd) {
-        setIsEnd(false);
+        // NOTE: set delay to avoid showing the play button on replay
+        setTimeout(() => {
+          setIsEnd(false);
+        }, 1000);
       }
       if (videoRef.current) {
         videoRef.current.pause();
