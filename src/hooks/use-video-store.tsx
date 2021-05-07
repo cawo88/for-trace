@@ -49,10 +49,8 @@ const VideoProvider = ({ children }: any) => {
       setIsPlaying(isPlaying);
       if (videoRef.current) {
         console.log('is play');
-        videoRef.current.currentTime = 0;
         videoRef.current.play();
         videoRef.current.controls = true;
-        setIsAutoPlay(false);
       }
     },
     [setIsPlaying],
@@ -60,6 +58,7 @@ const VideoProvider = ({ children }: any) => {
 
   const handleOnEnd = useCallback(
     (isEnd) => {
+      console.log('is end');
       setIsEnd(isEnd);
       setIsRestart(false);
       setIsPlaying(false);

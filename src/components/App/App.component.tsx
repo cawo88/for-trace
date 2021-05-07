@@ -10,9 +10,9 @@ const App = hoc(
   useAppProps,
   ({
     setIsRestart,
-    animatedArticleFadeOutStyle,
-    animatedOverlayFadeInStyle,
-    animatedOverlayFadeOutStyle,
+    animatedArticleFadeStyle,
+    animatedOverlayOnPlayStyle,
+    animatedOverlayOnRestartFadeStyle,
     isPlaying,
     isAutoPlay,
     isEnd,
@@ -21,9 +21,9 @@ const App = hoc(
       <section className={styles.container}>
         <animated.div
           className={styles.overlay}
-          style={isPlaying ? animatedOverlayFadeOutStyle : animatedOverlayFadeInStyle}
+          style={isPlaying ? animatedOverlayOnPlayStyle : animatedOverlayOnRestartFadeStyle}
         >
-          <animated.main className={styles.main} style={animatedArticleFadeOutStyle}>
+          <animated.main className={styles.main} style={animatedArticleFadeStyle}>
             <Graphic />
             <article className={styles.article}>
               <h1>

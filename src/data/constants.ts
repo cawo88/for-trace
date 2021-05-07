@@ -4,4 +4,9 @@ const OVERLAY = {
   tranparent: 'rgba(21,21,21, 0)',
 };
 
-export { OVERLAY };
+const ZINDEX = {
+  top: 1,
+  bottom: -1,
+};
+
+export { OVERLAY, ZINDEX };

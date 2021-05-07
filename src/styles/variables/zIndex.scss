@@ -1,0 +1,12 @@
+$z-index: (
+  overlay: 1,
+  video: 0,
+);
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z-index($key) {
+  z-index: z-index($key);
+}

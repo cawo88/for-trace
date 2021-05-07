@@ -1,6 +1,6 @@
 import { useSpring, config } from 'react-spring';
 import { useVideoStore } from '../../hooks';
-import { OVERLAY } from '../../data/constants';
+import { OVERLAY, ZINDEX } from '../../data/constants';
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface AppProps {}
 
@@ -8,33 +8,32 @@ interface AppProps {}
  * <App /> Props
  */
 const useAppProps = (props: AppProps) => {
-  const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay, isEnd } = useVideoStore();
+  const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay, isEnd } = useVideoStore(); //
 
-  const animatedArticleFadeOutStyle = useSpring({
+  const animatedArticleFadeStyle = useSpring({
     config: config.slow,
     from: { opacity: 1 },
     to: {
       opacity: isRestart ? 0 : 1,
     },
-    onRest: () => animatedOverlayFadeInStyle,
   });
 
-  const animatedOverlayFadeInStyle = useSpring({
+  const animatedOverlayOnRestartFadeStyle = useSpring({
     config: config.slow,
     from: { backgroundColor: OVERLAY.opaque },
     to: {
-      backgroundColor: !isRestart ? OVERLAY.opaque : OVERLAY.full,
+      backgroundColor: isRestart ? OVERLAY.full : OVERLAY.opaque,
     },
-    onRest: () => onAnimatedOverlayFadeInStyleComplete(),
+    onRest: () => onAnimatedOverlayFadeStyleComplete(),
   });
 
-  const animatedOverlayFadeOutStyle = useSpring({
-    to: { backgroundColor: OVERLAY.tranparent, zIndex: -1 },
-    from: { backgroundColor: OVERLAY.full, zIndex: 0 },
+  const animatedOverlayOnPlayStyle = useSpring({
+    from: { zIndex: ZINDEX.top },
+    to: { zIndex: ZINDEX.bottom },
   });
 
-  const onAnimatedOverlayFadeInStyleComplete = () => {
-    console.log('on aniamted overlay fade in complete');
+  const onAnimatedOverlayFadeStyleComplete = () => {
+    console.log('on aniamted overlay fade complete');
     if (!isEnd) {
       setIsPlaying(true);
     }
@@ -43,9 +42,9 @@ const useAppProps = (props: AppProps) => {
   return {
     ...props,
     setIsRestart,
-    animatedArticleFadeOutStyle,
-    animatedOverlayFadeInStyle,
-    animatedOverlayFadeOutStyle,
+    animatedArticleFadeStyle,
+    animatedOverlayOnRestartFadeStyle,
+    animatedOverlayOnPlayStyle,
     isPlaying,
     isAutoPlay,
     isEnd,
