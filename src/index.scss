@@ -5,16 +5,23 @@
 }
 
 body {
+  font-family: $font-sans-serif;
   margin: 0;
-  font-family: $font-default;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  color: $white;
-  @include respond-to('sm') {
-    overflow: hidden;
+   color: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-cursive;
+  font-weight: 400;
+}
+
+p {
+  font: normal 16px/1.4 $font-sans-serif;
+  @include respond-to('md') {
+    font-size: 18px;
   }
 }
 
@@ -25,4 +32,11 @@ a {
   &:active {
     color: $white;
   }
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

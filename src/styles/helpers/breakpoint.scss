@@ -1,11 +1,23 @@
 // values from Bootstrap
 $breakpoints: (
-  'xxs': (min-width: 0),
-  'xs': (min-width: 320px),
-  'sm': (min-width: 576px),
-  'md': (min-width: 768px),
-  'lg': (min-width: 1080px),
-  'xl': (min-width: 1200px),
+  'xxs': (
+    min-width: 0,
+  ),
+  'xs': (
+    min-width: 320px,
+  ),
+  'sm': (
+    min-width: 576px,
+  ),
+  'md': (
+    min-width: 768px,
+  ),
+  'lg': (
+    min-width: 1080px,
+  ),
+  'xl': (
+    min-width: 1200px,
+  ),
 ) !default;
 
 /// Mixin to manage responsive breakpoints
