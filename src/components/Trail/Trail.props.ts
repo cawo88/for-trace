@@ -18,7 +18,7 @@ const useTrailProps = (props: TrailProps) => {
     opacity: open ? 1 : 0,
     y: open ? 0 : -20,
     from: { opacity: 0, y: -20 },
-    delay: 200,
+    delay: 600,
   });
   return {
     ...props,

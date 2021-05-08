@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { useSpring, config } from 'react-spring';
 import { useVideoStore } from '../../hooks';
 import { OVERLAY, ZINDEX } from '../../data/constants';
@@ -9,6 +10,11 @@ interface AppProps {}
  */
 const useAppProps = (props: AppProps) => {
   const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay, isEnd } = useVideoStore();
+  const [onLoad, setOnLoad] = useState<boolean>(false);
+
+  useEffect(() => {
+    setOnLoad(true);
+  }, []);
 
   const animatedArticleFadeStyle = useSpring({
     config: config.slow,
@@ -16,6 +22,14 @@ const useAppProps = (props: AppProps) => {
     to: {
       opacity: isRestart ? 0 : 1,
     },
+  });
+
+  const animatedOverlayOnLoadStyle = useSpring({
+    from: { backgroundColor: OVERLAY.full },
+    to: {
+      backgroundColor: OVERLAY.opaque,
+    },
+    delay: 1200,
   });
 
   const animatedOverlayOnRestartFadeStyle = useSpring({
@@ -49,6 +63,8 @@ const useAppProps = (props: AppProps) => {
     isAutoPlay,
     isEnd,
     setIsPlaying,
+    onLoad,
+    animatedOverlayOnLoadStyle,
   };
 };
 

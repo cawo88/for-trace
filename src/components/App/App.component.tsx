@@ -12,17 +12,25 @@ const App = hoc(
   ({
     setIsRestart,
     animatedArticleFadeStyle,
+    animatedOverlayOnLoadStyle,
     animatedOverlayOnPlayStyle,
     animatedOverlayOnRestartFadeStyle,
     isPlaying,
     isAutoPlay,
     isEnd,
+    onLoad,
   }) => {
     return (
       <section className={styles.container}>
         <animated.div
           className={styles.overlay}
-          style={isPlaying ? animatedOverlayOnPlayStyle : animatedOverlayOnRestartFadeStyle}
+          style={
+            onLoad && !isPlaying
+              ? animatedOverlayOnLoadStyle
+              : isPlaying
+              ? animatedOverlayOnPlayStyle
+              : animatedOverlayOnRestartFadeStyle
+          }
         >
           <animated.main className={styles.main} style={animatedArticleFadeStyle}>
             <Trail open>
