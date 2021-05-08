@@ -17,6 +17,7 @@ const App = hoc(
     animatedOverlayOnRestartFadeStyle,
     isPlaying,
     isAutoPlay,
+    isRestart,
     isEnd,
     onLoad,
   }) => {
@@ -51,6 +52,9 @@ const App = hoc(
                 <div className="mb-4" />
                 <button
                   className={styles.button}
+                  aria-label="Play video"
+                  aria-pressed={!!isRestart}
+                  tab-index="0"
                   onClick={() => {
                     setIsRestart(true);
                   }}

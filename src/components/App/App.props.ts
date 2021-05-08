@@ -61,6 +61,7 @@ const useAppProps = (props: AppProps) => {
     animatedOverlayOnPlayStyle,
     isPlaying,
     isAutoPlay,
+    isRestart,
     isEnd,
     setIsPlaying,
     onLoad,

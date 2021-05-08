@@ -2,6 +2,7 @@
 
 @import 'styles/shared.scss';
 
+
 /* -----------------------------------
  *
  * App styles
@@ -58,8 +59,9 @@
   border: 0;
   margin: 0;
   padding: 0;
-  background: none;
   color: white;
+  background: url('../../assets/images/button-bg.svg') center bottom no-repeat;
+  cursor: url('../../assets/images/headphones.svg'), auto;
 }
 
 
