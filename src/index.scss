@@ -12,8 +12,17 @@ body {
   background-color: black;
   overflow-x: hidden;
   overflow-y: scroll;
-  color: white;
+  color: $white;
   @include respond-to('sm') {
     overflow: hidden;
+  }
+}
+
+a {
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: $white;
   }
 }

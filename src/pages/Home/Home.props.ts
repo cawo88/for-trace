@@ -2,13 +2,11 @@ import { useState, useEffect } from 'react';
 import { useSpring, config } from 'react-spring';
 import { useVideoStore } from '../../hooks';
 import { OVERLAY, ZINDEX } from '../../data/constants';
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface AppProps {}
 
 /**
- * <App /> Props
+ * <Home /> Props
  */
-const useAppProps = (props: AppProps) => {
+const useHomeProps = () => {
   const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay, isEnd } = useVideoStore();
   const [onLoad, setOnLoad] = useState<boolean>(false);
 
@@ -47,14 +45,12 @@ const useAppProps = (props: AppProps) => {
   });
 
   const onAnimatedOverlayFadeStyleComplete = () => {
-    console.log('on aniamted overlay fade complete');
     if (!isEnd) {
       setIsPlaying(true);
     }
   };
 
   return {
-    ...props,
     setIsRestart,
     animatedArticleFadeStyle,
     animatedOverlayOnRestartFadeStyle,
@@ -69,4 +65,4 @@ const useAppProps = (props: AppProps) => {
   };
 };
 
-export { useAppProps };
+export { useHomeProps };

@@ -1,14 +1,14 @@
 import React from 'react';
-import { useAppProps } from './App.props';
-import { hoc } from '../../ultility/hoc';
-import styles from './App.module.scss';
-import { Video } from '.././Video';
-import { Graphic } from '.././Graphic';
 import { animated } from 'react-spring';
-import { Trail } from '.././Trail';
+import { useHomeProps } from './Home.props';
+import { hoc } from '../../ultility/hoc';
+import styles from './Home.module.scss';
+import { Video } from '../../components/Video';
+import { Graphic } from '../../components/Graphic';
+import { Trail } from '../../components/Trail';
 
-const App = hoc(
-  useAppProps,
+const Home = hoc(
+  useHomeProps,
   ({
     setIsRestart,
     animatedArticleFadeStyle,
@@ -76,4 +76,4 @@ const App = hoc(
   },
 );
 
-export { App };
+export { Home };
