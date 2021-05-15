@@ -57,9 +57,14 @@
   margin: 0;
   padding: 0;
   color: $white;
-  background: url('../../assets/images/button-bg.svg') center bottom no-repeat;
+  background: url('../../assets/images/button-bg--sm.svg') center bottom no-repeat;
   cursor: url('../../assets/images/headphones.svg'), auto;
   @include respond-to('sm') {
     font-size: 46px;
   }
+}
+
+.buttonIsReplay {
+  @extend .button;
+  background: url('../../assets/images/button-bg--lg.svg') center bottom no-repeat;
 }

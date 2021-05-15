@@ -48,7 +48,7 @@ const Home = hoc(
 
                 <div className="mb-4" />
                 <button
-                  className={styles.button}
+                  className={isEnd ? styles.buttonIsReplay : styles.button}
                   aria-label="Play video"
                   aria-pressed={!!isRestart}
                   tab-index="0"

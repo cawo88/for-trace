@@ -25,6 +25,7 @@
   font-size: 36px;
   font-weight: 400;
   text-decoration: none;
+  background: url('../../assets/images/button-bg--lg.svg') center bottom no-repeat;
   @include respond-to('sm') {
     font-size: 46px;
   }
