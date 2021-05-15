@@ -1,6 +1,5 @@
 import React, { lazy, Suspense } from 'react';
 import { Redirect, Route, Switch, BrowserRouter } from 'react-router-dom';
-// import { Home } from './pages/Home';
 import { Error } from './pages/Error';
 
 const Home = lazy(() => import('./pages/Home').then((module) => ({ default: module.Home })));
