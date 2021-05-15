@@ -6,6 +6,7 @@ import styles from './Home.module.scss';
 import { Video } from '../../components/Video';
 import { Graphic } from '../../components/Graphic';
 import { Trail } from '../../components/Trail';
+import VideoFile from '../../assets/videos/video.mp4';
 
 const Home = hoc(
   useHomeProps,
@@ -62,12 +63,7 @@ const Home = hoc(
             </Trail>
           </animated.main>
         </animated.div>
-        <Video
-          src="https://tracepaul.s3.eu-central-1.amazonaws.com/video.mp4"
-          isAutoPlay={isAutoPlay}
-          isMute={!isPlaying}
-          isLoop={!isPlaying}
-        />
+        <Video src={VideoFile} isAutoPlay={isAutoPlay} isMute={!isPlaying} isLoop={!isPlaying} />
       </section>
     );
   },
