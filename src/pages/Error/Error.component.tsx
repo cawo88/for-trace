@@ -5,9 +5,9 @@ import styles from './Error.module.scss';
 const Error = () => {
   return (
     <main className={styles.main}>
-      <h1 className={styles.heading}>404 Page</h1>
+      <h1 className={styles.heading}>Fehler 404</h1>
       <Link to="/" className={styles.link}>
-        Go to Home
+        Zur Startseite.
       </Link>
     </main>
   );
