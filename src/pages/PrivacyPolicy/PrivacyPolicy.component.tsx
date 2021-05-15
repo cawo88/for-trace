@@ -8,26 +8,26 @@ const PrivacyPolicy = () => {
         <h1 className={styles.heading}>Privacy Policy</h1>
         <h2>Datenschutzerklärung</h2>
         <p>
-          Wir freuen uns sehr über Ihr Interesse an unserem Unternehmen. Datenschutz hat einen besonders hohen
-          Stellenwert für die Geschäftsleitung der Carol Leung. Eine Nutzung der Internetseiten der Carol Leung ist
-          grundsätzlich ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere
-          Services unseres Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine
-          Verarbeitung personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten
-          erforderlich und besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine
-          Einwilligung der betroffenen Person ein.
+          Wir freuen uns sehr über Ihr Interesse an unserem Projekt. Datenschutz hat einen besonders hohen Stellenwert
+          für die Geschäftsleitung der Tracy Eitner. Eine Nutzung der Internetseiten der Tracy Eitner ist grundsätzlich
+          ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres
+          Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung
+          personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und
+          besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der
+          betroffenen Person ein.
         </p>
 
         <p>
           Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der Anschrift, E-Mail-Adresse oder
           Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und in
-          Übereinstimmung mit den für die Carol Leung geltenden landesspezifischen Datenschutzbestimmungen. Mittels
+          Übereinstimmung mit den für die Tracy Eitner geltenden landesspezifischen Datenschutzbestimmungen. Mittels
           dieser Datenschutzerklärung möchte unser Unternehmen die Öffentlichkeit über Art, Umfang und Zweck der von uns
           erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner werden betroffene Personen
           mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.
         </p>
 
         <p>
-          Die Carol Leung hat als für die Verarbeitung Verantwortlicher zahlreiche technische und organisatorische
+          Die Tracy Eitner hat als für die Verarbeitung Verantwortlicher zahlreiche technische und organisatorische
           Maßnahmen umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten
           personenbezogenen Daten sicherzustellen. Dennoch können Internetbasierte Datenübertragungen grundsätzlich
           Sicherheitslücken aufweisen, sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund
@@ -37,7 +37,7 @@ const PrivacyPolicy = () => {
 
         <h2>1. Begriffsbestimmungen</h2>
         <p>
-          Die Datenschutzerklärung der Carol Leung beruht auf den Begrifflichkeiten, die durch den Europäischen
+          Die Datenschutzerklärung der Tracy Eitner beruht auf den Begrifflichkeiten, die durch den Europäischen
           Richtlinien- und Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden.
           Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner
           einfach lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten
@@ -159,10 +159,10 @@ const PrivacyPolicy = () => {
         </p>
 
         <p>
-          Carol Leung <br />
-          Allerst. 17
+          Tracy Eitner <br />
+          Boppstr. 10
           <br />
-          12049 Berlin
+          10967 Berlin
           <br />
           Germany
           <br />
@@ -176,9 +176,9 @@ const PrivacyPolicy = () => {
 
         <h2>3. Erfassung von allgemeinen Daten und Informationen</h2>
         <p>
-          Die Internetseite der Carol Leung erfasst mit jedem Aufruf der Internetseite durch eine betroffene Person oder
-          ein automatisiertes System eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten und
-          Informationen werden in den Logfiles des Servers gespeichert. Erfasst werden können die (1) verwendeten
+          Die Internetseite der Tracy Eitner erfasst mit jedem Aufruf der Internetseite durch eine betroffene Person
+          oder ein automatisiertes System eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten
+          und Informationen werden in den Logfiles des Servers gespeichert. Erfasst werden können die (1) verwendeten
           Browsertypen und Versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) die Internetseite,
           von welcher ein zugreifendes System auf unsere Internetseite gelangt (sogenannte Referrer), (4) die
           Unterwebseiten, welche über ein zugreifendes System auf unserer Internetseite angesteuert werden, (5) das
@@ -188,16 +188,16 @@ const PrivacyPolicy = () => {
         </p>
 
         <p>
-          Bei der Nutzung dieser allgemeinen Daten und Informationen zieht die Carol Leung keine Rückschlüsse auf die
+          Bei der Nutzung dieser allgemeinen Daten und Informationen zieht die Tracy Eitner keine Rückschlüsse auf die
           betroffene Person. Diese Informationen werden vielmehr benötigt, um (1) die Inhalte unserer Internetseite
           korrekt auszuliefern, (2) die Inhalte unserer Internetseite sowie die Werbung für diese zu optimieren, (3) die
           dauerhafte Funktionsfähigkeit unserer informationstechnologischen Systeme und der Technik unserer
           Internetseite zu gewährleisten sowie (4) um Strafverfolgungsbehörden im Falle eines Cyberangriffes die zur
           Strafverfolgung notwendigen Informationen bereitzustellen. Diese anonym erhobenen Daten und Informationen
-          werden durch die Carol Leung daher einerseits statistisch und ferner mit dem Ziel ausgewertet, den Datenschutz
-          und die Datensicherheit in unserem Unternehmen zu erhöhen, um letztlich ein optimales Schutzniveau für die von
-          uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der Server-Logfiles werden
-          getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten gespeichert.
+          werden durch die Tracy Eitner daher einerseits statistisch und ferner mit dem Ziel ausgewertet, den
+          Datenschutz und die Datensicherheit in unserem Unternehmen zu erhöhen, um letztlich ein optimales Schutzniveau
+          für die von uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der Server-Logfiles
+          werden getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten gespeichert.
         </p>
 
         <h2>4. Routinemäßige Löschung und Sperrung von personenbezogenen Daten</h2>
@@ -328,20 +328,20 @@ const PrivacyPolicy = () => {
             </ul>
             <p>
               Sofern einer der oben genannten Gründe zutrifft und eine betroffene Person die Löschung von
-              personenbezogenen Daten, die bei der Carol Leung gespeichert sind, veranlassen möchte, kann sie sich
+              personenbezogenen Daten, die bei der Tracy Eitner gespeichert sind, veranlassen möchte, kann sie sich
               hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter
-              der Carol Leung wird veranlassen, dass dem Löschverlangen unverzüglich nachgekommen wird.
+              der Tracy Eitner wird veranlassen, dass dem Löschverlangen unverzüglich nachgekommen wird.
             </p>
 
             <p>
-              Wurden die personenbezogenen Daten von der Carol Leung öffentlich gemacht und ist unser Unternehmen als
+              Wurden die personenbezogenen Daten von der Tracy Eitner öffentlich gemacht und ist unser Unternehmen als
               Verantwortlicher gemäß Art. 17 Abs. 1 DS-GVO zur Löschung der personenbezogenen Daten verpflichtet, so
-              trifft die Carol Leung unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten
+              trifft die Tracy Eitner unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten
               angemessene Maßnahmen, auch technischer Art, um andere für die Datenverarbeitung Verantwortliche, welche
               die veröffentlichten personenbezogenen Daten verarbeiten, darüber in Kenntnis zu setzen, dass die
               betroffene Person von diesen anderen für die Datenverarbeitung Verantwortlichen die Löschung sämtlicher
               Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten
-              verlangt hat, soweit die Verarbeitung nicht erforderlich ist. Der Mitarbeiter der Carol Leung wird im
+              verlangt hat, soweit die Verarbeitung nicht erforderlich ist. Der Mitarbeiter der Tracy Eitner wird im
               Einzelfall das Notwendige veranlassen.
             </p>
           </li>
@@ -376,9 +376,9 @@ const PrivacyPolicy = () => {
             </ul>
             <p>
               Sofern eine der oben genannten Voraussetzungen gegeben ist und eine betroffene Person die Einschränkung
-              von personenbezogenen Daten, die bei der Carol Leung gespeichert sind, verlangen möchte, kann sie sich
+              von personenbezogenen Daten, die bei der Tracy Eitner gespeichert sind, verlangen möchte, kann sie sich
               hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter
-              der Carol Leung wird die Einschränkung der Verarbeitung veranlassen.
+              der Tracy Eitner wird die Einschränkung der Verarbeitung veranlassen.
             </p>
           </li>
           <li>
@@ -405,7 +405,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich die betroffene Person jederzeit an einen
-              Mitarbeiter der Carol Leung wenden.
+              Mitarbeiter der Tracy Eitner wenden.
             </p>
           </li>
           <li>
@@ -419,24 +419,24 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              Die Carol Leung verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn,
-              wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen, Rechten und
-              Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung
-              oder Verteidigung von Rechtsansprüchen.
+              Die Tracy Eitner verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei
+              denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen,
+              Rechten und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung,
+              Ausübung oder Verteidigung von Rechtsansprüchen.
             </p>
 
             <p>
-              Verarbeitet die Carol Leung personenbezogene Daten, um Direktwerbung zu betreiben, so hat die betroffene
+              Verarbeitet die Tracy Eitner personenbezogene Daten, um Direktwerbung zu betreiben, so hat die betroffene
               Person das Recht, jederzeit Widerspruch gegen die Verarbeitung der personenbezogenen Daten zum Zwecke
               derartiger Werbung einzulegen. Dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in
-              Verbindung steht. Widerspricht die betroffene Person gegenüber der Carol Leung der Verarbeitung für Zwecke
-              der Direktwerbung, so wird die Carol Leung die personenbezogenen Daten nicht mehr für diese Zwecke
+              Verbindung steht. Widerspricht die betroffene Person gegenüber der Tracy Eitner der Verarbeitung für
+              Zwecke der Direktwerbung, so wird die Tracy Eitner die personenbezogenen Daten nicht mehr für diese Zwecke
               verarbeiten.
             </p>
 
             <p>
               Zudem hat die betroffene Person das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben,
-              gegen die sie betreffende Verarbeitung personenbezogener Daten, die bei der Carol Leung zu
+              gegen die sie betreffende Verarbeitung personenbezogener Daten, die bei der Tracy Eitner zu
               wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Art. 89 Abs. 1
               DS-GVO erfolgen, Widerspruch einzulegen, es sei denn, eine solche Verarbeitung ist zur Erfüllung einer im
               öffentlichen Interesse liegenden Aufgabe erforderlich.
@@ -444,7 +444,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Zur Ausübung des Rechts auf Widerspruch kann sich die betroffene Person direkt an jeden Mitarbeiter der
-              Carol Leung oder einen anderen Mitarbeiter wenden. Der betroffenen Person steht es ferner frei, im
+              Tracy Eitner oder einen anderen Mitarbeiter wenden. Der betroffenen Person steht es ferner frei, im
               Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft, ungeachtet der Richtlinie
               2002/58/EG, ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische
               Spezifikationen verwendet werden.
@@ -467,7 +467,7 @@ const PrivacyPolicy = () => {
             <p>
               Ist die Entscheidung (1) für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen
               Person und dem Verantwortlichen erforderlich oder (2) erfolgt sie mit ausdrücklicher Einwilligung der
-              betroffenen Person, trifft die Carol Leung angemessene Maßnahmen, um die Rechte und Freiheiten sowie die
+              betroffenen Person, trifft die Tracy Eitner angemessene Maßnahmen, um die Rechte und Freiheiten sowie die
               berechtigten Interessen der betroffenen Person zu wahren, wozu mindestens das Recht auf Erwirkung des
               Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf
               Anfechtung der Entscheidung gehört.

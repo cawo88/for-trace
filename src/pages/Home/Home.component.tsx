@@ -41,10 +41,7 @@ const Home = hoc(
                 <div className="mt-3" />
 
                 {isEnd ? (
-                  <h1 className={styles.heading}>
-                    <span>Paul</span>&nbsp;
-                    <small>,1986-2021</small>
-                  </h1>
+                  <h1 className={styles.heading}>Für Paul</h1>
                 ) : (
                   <h1 className={styles.heading}>Liebe soll dich begleiten</h1>
                 )}
@@ -59,7 +56,7 @@ const Home = hoc(
                     setIsRestart(true);
                   }}
                 >
-                  {isEnd ? 'replay' : 'play '}
+                  {isEnd ? 'Zum Anfang' : 'Start '}
                 </button>
               </article>
             </Trail>
