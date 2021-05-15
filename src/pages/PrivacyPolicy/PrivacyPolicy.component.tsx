@@ -5,8 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <main className={styles.main}>
       <article className={styles.article}>
-        <h1 className={styles.heading}>Privacy Policy</h1>
-        <h2>Datenschutzerklärung</h2>
+        <h1 className={styles.heading}>Datenschutzerklärung</h1>
         <p>
           Wir freuen uns sehr über Ihr Interesse an unserem Projekt. Datenschutz hat einen besonders hohen Stellenwert
           für die Geschäftsleitung der Tracy Eitner. Eine Nutzung der Internetseiten der Tracy Eitner ist grundsätzlich
@@ -514,7 +513,7 @@ const PrivacyPolicy = () => {
           Facebook herunterzuladen. Eine Gesamtübersicht über alle Facebook-Plug-Ins kann unter
           <a href="https://developers.facebook.com/docs/plugins/?locale=de_DE">
             https://developers.facebook.com/docs/plugins/?locale=de_DE
-          </a>
+          </a>{' '}
           abgerufen werden. Im Rahmen dieses technischen Verfahrens erhält Facebook Kenntnis darüber, welche konkrete
           Unterseite unserer Internetseite durch die betroffene Person besucht wird.
         </p>
@@ -570,7 +569,9 @@ const PrivacyPolicy = () => {
           wird der Internetbrowser auf dem informationstechnologischen System der betroffenen Person automatisch durch
           die jeweilige Twitter-Komponente veranlasst, eine Darstellung der entsprechenden Twitter-Komponente von
           Twitter herunterzuladen. Weitere Informationen zu den Twitter-Buttons sind unter
-          <a href="https://about.twitter.com/de/resources/buttons">https://about.twitter.com/de/resources/buttons</a>
+          <a href="https://about.twitter.com/de/resources/buttons">
+            https://about.twitter.com/de/resources/buttons
+          </a>{' '}
           abrufbar. Im Rahmen dieses technischen Verfahrens erhält Twitter Kenntnis darüber, welche konkrete Unterseite
           unserer Internetseite durch die betroffene Person besucht wird. Zweck der Integration der Twitter-Komponente
           ist es, unseren Nutzern eine Weiterverbreitung der Inhalte diese Internetseite zu ermöglichen, diese

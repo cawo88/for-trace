@@ -10,7 +10,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/datenschutz" component={PrivacyPolicy} />
           <Route path="/404" component={Error} />
           <Redirect to="/404" />
         </Switch>
