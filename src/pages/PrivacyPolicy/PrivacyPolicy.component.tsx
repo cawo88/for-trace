@@ -48,7 +48,7 @@ const PrivacyPolicy = () => {
 
         <ul>
           <li>
-            <h2>a) personenbezogene Daten</h2>
+            <h3>a) personenbezogene Daten</h3>
             <p>
               Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare
               natürliche Person (im Folgenden „betroffene Person“) beziehen. Als identifizierbar wird eine natürliche
@@ -60,14 +60,14 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>b) betroffene Person</h2>
+            <h3>b) betroffene Person</h3>
             <p>
               Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene
               Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.
             </p>
           </li>
           <li>
-            <h2>c) Verarbeitung</h2>
+            <h3>c) Verarbeitung</h3>
             <p>
               Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
               Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation,
@@ -77,14 +77,14 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>d) Einschränkung der Verarbeitung</h2>
+            <h3>d) Einschränkung der Verarbeitung</h3>
             <p>
               Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre
               künftige Verarbeitung einzuschränken.
             </p>
           </li>
           <li>
-            <h2>e) Profiling</h2>
+            <h3>e) Profiling</h3>
             <p>
               Profiling ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass
               diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine
@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>f) Pseudonymisierung</h2>
+            <h3>f) Pseudonymisierung</h3>
             <p>
               Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die
               personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>g) Verantwortlicher oder für die Verarbeitung Verantwortlicher</h2>
+            <h3>g) Verantwortlicher oder für die Verarbeitung Verantwortlicher</h3>
             <p>
               Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische Person,
               Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel
@@ -116,14 +116,14 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>h) Auftragsverarbeiter</h2>
+            <h3>h) Auftragsverarbeiter</h3>
             <p>
               Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle,
               die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
             </p>
           </li>
           <li>
-            <h2>i) Empfänger</h2>
+            <h3>i) Empfänger</h3>
             <p>
               Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der
               personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt
@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>j) Dritter</h2>
+            <h3>j) Dritter</h3>
             <p>
               Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer der
               betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>k) Einwilligung</h2>
+            <h3>k) Einwilligung</h3>
             <p>
               Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter Weise
               und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen
@@ -165,13 +165,6 @@ const PrivacyPolicy = () => {
           10967 Berlin
           <br />
           Germany
-          <br />
-          <b>Tel.:</b>&nbsp;<a href="tel:+4917626804883">+4917626804883</a>
-          <br />
-          <b>E-Mail:</b>&nbsp;
-          <a href="mailto:carol.carl.leung@gmail.com">carol.carl.leung@gmail.com</a>
-          <br />
-          <b>Website:</b> <a href="https://tracy-paul.netlify.app">https://tracy-paul.netlify.app</a>
         </p>
 
         <h2>3. Erfassung von allgemeinen Daten und Informationen</h2>
@@ -217,7 +210,7 @@ const PrivacyPolicy = () => {
         <h2>5. Rechte der betroffenen Person</h2>
         <ul>
           <li>
-            <h2>a) Recht auf Bestätigung</h2>
+            <h3>a) Recht auf Bestätigung</h3>
             <p>
               Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht, von
               dem für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie betreffende
@@ -227,7 +220,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>b) Recht auf Auskunft</h2>
+            <h3>b) Recht auf Auskunft</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung Verantwortlichen
@@ -278,7 +271,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>c) Recht auf Berichtigung</h2>
+            <h3>c) Recht auf Berichtigung</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, die unverzügliche Berichtigung sie betreffender unrichtiger
@@ -293,7 +286,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>d) Recht auf Löschung (Recht auf Vergessen werden)</h2>
+            <h3>d) Recht auf Löschung (Recht auf Vergessen werden)</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, von dem Verantwortlichen zu verlangen, dass die sie betreffenden
@@ -346,7 +339,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>e) Recht auf Einschränkung der Verarbeitung</h2>
+            <h3>e) Recht auf Einschränkung der Verarbeitung</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, von dem Verantwortlichen die Einschränkung der Verarbeitung zu
@@ -382,7 +375,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>f) Recht auf Datenübertragbarkeit</h2>
+            <h3>f) Recht auf Datenübertragbarkeit</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, die sie betreffenden personenbezogenen Daten, welche durch die
@@ -451,7 +444,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>h) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h2>
+            <h3>h) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung —
@@ -479,7 +472,7 @@ const PrivacyPolicy = () => {
             </p>
           </li>
           <li>
-            <h2>i) Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h2>
+            <h3>i) Recht auf Widerruf einer datenschutzrechtlichen Einwilligung</h3>
             <p>
               Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien-
               und Verordnungsgeber gewährte Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten jederzeit
@@ -519,9 +512,11 @@ const PrivacyPolicy = () => {
           wird der Internetbrowser auf dem informationstechnologischen System der betroffenen Person automatisch durch
           die jeweilige Facebook-Komponente veranlasst, eine Darstellung der entsprechenden Facebook-Komponente von
           Facebook herunterzuladen. Eine Gesamtübersicht über alle Facebook-Plug-Ins kann unter
-          https://developers.facebook.com/docs/plugins/?locale=de_DE abgerufen werden. Im Rahmen dieses technischen
-          Verfahrens erhält Facebook Kenntnis darüber, welche konkrete Unterseite unserer Internetseite durch die
-          betroffene Person besucht wird.
+          <a href="https://developers.facebook.com/docs/plugins/?locale=de_DE">
+            https://developers.facebook.com/docs/plugins/?locale=de_DE
+          </a>
+          abgerufen werden. Im Rahmen dieses technischen Verfahrens erhält Facebook Kenntnis darüber, welche konkrete
+          Unterseite unserer Internetseite durch die betroffene Person besucht wird.
         </p>
 
         <p>
@@ -575,11 +570,11 @@ const PrivacyPolicy = () => {
           wird der Internetbrowser auf dem informationstechnologischen System der betroffenen Person automatisch durch
           die jeweilige Twitter-Komponente veranlasst, eine Darstellung der entsprechenden Twitter-Komponente von
           Twitter herunterzuladen. Weitere Informationen zu den Twitter-Buttons sind unter
-          https://about.twitter.com/de/resources/buttons abrufbar. Im Rahmen dieses technischen Verfahrens erhält
-          Twitter Kenntnis darüber, welche konkrete Unterseite unserer Internetseite durch die betroffene Person besucht
-          wird. Zweck der Integration der Twitter-Komponente ist es, unseren Nutzern eine Weiterverbreitung der Inhalte
-          diese Internetseite zu ermöglichen, diese Internetseite in der digitalen Welt bekannt zu machen und unsere
-          Besucherzahlen zu erhöhen.
+          <a href="https://about.twitter.com/de/resources/buttons">https://about.twitter.com/de/resources/buttons</a>
+          abrufbar. Im Rahmen dieses technischen Verfahrens erhält Twitter Kenntnis darüber, welche konkrete Unterseite
+          unserer Internetseite durch die betroffene Person besucht wird. Zweck der Integration der Twitter-Komponente
+          ist es, unseren Nutzern eine Weiterverbreitung der Inhalte diese Internetseite zu ermöglichen, diese
+          Internetseite in der digitalen Welt bekannt zu machen und unsere Besucherzahlen zu erhöhen.
         </p>
 
         <p>

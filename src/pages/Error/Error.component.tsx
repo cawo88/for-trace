@@ -7,7 +7,7 @@ const Error = () => {
     <main className={styles.main}>
       <h1 className={styles.heading}>Fehler 404</h1>
       <Link to="/" className={styles.link}>
-        Zur Startseite.
+        Zur Startseite
       </Link>
     </main>
   );

@@ -41,14 +41,11 @@
 }
 
 .heading {
-  font-size: 36px;
-  font-weight: 400;
+  font-size: 46px;
+  font-weight: 500;
   margin: 0;
-  span {
-    font-weight: 700;
-  }
   @include respond-to('sm') {
-    font-size: 46px;
+    font-size: 56px;
   }
 }
 

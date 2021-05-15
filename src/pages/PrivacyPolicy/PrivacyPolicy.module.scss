@@ -17,16 +17,23 @@
 .article {
   max-width: 720px;
   box-sizing: border-box;
+  .heading, h2, h3 {
+    word-wrap: break-word;
+  }
+
 }
 
 .heading {
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h2 {
+  font-size: 42px;
+}
+
+h3 {
   font-size: 36px;
-  word-wrap: break-word;
 }
 
 
