@@ -17,6 +17,7 @@ const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, 
         controlsList="nodownload"
         disablePictureInPicture
         onEnded={() => setIsEnd(true)}
+        playsInline={isAutoPlay}
       >
         <source src={src} type="video/mp4" />
         Your browser does not support the video tag.
