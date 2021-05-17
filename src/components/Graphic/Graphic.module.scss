@@ -1,0 +1,8 @@
+@import 'styles/shared';
+
+.graphic {
+  width: 120px;
+  @include respond-to('md') {
+    width: 160px;
+  }
+}

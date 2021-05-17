@@ -11,9 +11,6 @@
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  @include respond-to('sm') {
-    overflow: hidden;
-  }
 }
 
 .overlay {
@@ -31,8 +28,9 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 20px 0;
   @include respond-to('md') {
-    padding-top: 80px;
+    padding: 120px 0 20px;
   }
 }
 
@@ -41,18 +39,18 @@
 }
 
 .heading {
-  font-size: 46px;
+  font-size: 42px;
   font-weight: 500;
   margin: 0;
   @include respond-to('sm') {
-    font-size: 56px;
+    font-size: 52px;
   }
 }
 
 .button {
   font-family: $font-cursive;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 32px;
   border: 0;
   margin: 0;
   padding: 0 5px 0 0;
@@ -60,7 +58,7 @@
   background: url('../../assets/images/button-bg--sm.svg') center bottom no-repeat;
   cursor: url('../../assets/images/headphones.svg'), auto;
   @include respond-to('sm') {
-    font-size: 46px;
+    font-size: 42px;
   }
 }
 
