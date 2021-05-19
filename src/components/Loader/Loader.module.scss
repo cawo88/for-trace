@@ -1,0 +1,15 @@
+@import 'styles/shared';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.svg {
+  path {
+    fill: $white;
+    opacity: 0.35;
+  }
+}

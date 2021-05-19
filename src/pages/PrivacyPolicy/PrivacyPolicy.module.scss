@@ -6,7 +6,7 @@
  *
  * -------------------------------- */
 
- .wordbreak {
+.wordbreak {
   /* These are technically the same, but use both */
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -22,12 +22,12 @@
   -moz-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
- }
+}
 
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;;
+  align-items: center;
   width: 100%;
   padding: 15vh 30px 80px;
 }
@@ -50,6 +50,3 @@ h2 {
 h3 {
   font-size: 36px;
 }
-
-
-

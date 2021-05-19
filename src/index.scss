@@ -10,10 +10,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-   color: $white;
+  color: $white;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-cursive;
   font-weight: 400;
 }
@@ -33,7 +38,6 @@ a {
     color: $white;
   }
 }
-
 
 ul {
   list-style: none;

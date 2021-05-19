@@ -1,0 +1,16 @@
+@import 'styles/shared';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+
