@@ -9,6 +9,7 @@ const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, 
       <div className={styles.controller}></div>
 
       <video
+        preload="metadata"
         ref={videoRef}
         className={isPlaying ? styles.videoIsPlaying : styles.video}
         autoPlay={isAutoPlay}
@@ -20,7 +21,7 @@ const Video = hoc(useVideoProps, ({ src, isPlaying, isAutoPlay, isMute, isLoop, 
         playsInline={isAutoPlay}
       >
         <source src={src} type="video/mp4" />
-        Your browser does not support the video tag.
+        Ihr Browser unterstützt das Video-Tag nicht.
       </video>
     </section>
   );
