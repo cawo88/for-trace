@@ -6,7 +6,8 @@ import styles from './Home.module.scss';
 import { Video } from '../../components/Video';
 import { Graphic } from '../../components/Graphic';
 import { Trail } from '../../components/Trail';
-import VideoFile from '../../assets/videos/video.mp4';
+import VideoFileDesktop from '../../assets/videos/video--desktop.mp4';
+import VideoFileMobile from '../../assets/videos/video--mobile.mp4';
 
 const Home = hoc(
   useHomeProps,
@@ -21,6 +22,7 @@ const Home = hoc(
     isRestart,
     isEnd,
     onLoad,
+    isMobileViewport,
   }) => {
     return (
       <section className={styles.container}>
@@ -37,7 +39,6 @@ const Home = hoc(
           <animated.main className={styles.main} style={animatedArticleFadeStyle}>
             <Trail open>
               <Graphic />
-
               <article className={styles.article}>
                 <div className="mt-3" />
 
@@ -63,7 +64,12 @@ const Home = hoc(
             </Trail>
           </animated.main>
         </animated.div>
-        <Video src={VideoFile} isAutoPlay={isAutoPlay} isMute={!isPlaying} isLoop={!isPlaying} />
+        <Video
+          src={isMobileViewport ? VideoFileMobile : VideoFileDesktop}
+          isAutoPlay={isAutoPlay}
+          isMute={!isPlaying}
+          isLoop={!isPlaying}
+        />
       </section>
     );
   },

@@ -2,15 +2,19 @@
 
 .container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;;
 }
 
-.heading {
-  font-size: 72px;
-  line-height: 1;
-  font-weight: 500;
+.description {
+  font-size: 36px;
+  font-weight: 400;
+  @include respond-to('sm') {
+    font-size: 46px;
+  }
 }
-
 

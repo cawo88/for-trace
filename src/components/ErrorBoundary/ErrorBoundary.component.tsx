@@ -27,7 +27,10 @@ class ErrorBoundary extends Component<Props, State> {
     if (this.state.hasError) {
       return (
         <section className={styles.container}>
-          <h1 className={styles.heading}>Entschuldigung... da ist ein Fehler aufgetreten.</h1>
+          <h1 className={styles.description}>
+            Entschuldigung, <br />
+            da ist ein Fehler aufgetreten.
+          </h1>
         </section>
       );
     }

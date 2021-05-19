@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSpring, config } from 'react-spring';
-import { useVideoStore } from '../../hooks';
+import { useVideoStore, useWindowSize } from '../../hooks';
 import { OVERLAY, ZINDEX } from '../../data/constants';
 
 /**
@@ -9,6 +9,12 @@ import { OVERLAY, ZINDEX } from '../../data/constants';
 const useHomeProps = () => {
   const { isRestart, setIsRestart, isPlaying, setIsPlaying, isAutoPlay, isEnd } = useVideoStore();
   const [onLoad, setOnLoad] = useState<boolean>(false);
+
+  const { windowWidth } = useWindowSize();
+
+  const isMobileViewport = windowWidth && windowWidth < 576;
+
+  console.log('isMobileViewport', isMobileViewport);
 
   useEffect(() => {
     setOnLoad(true);
@@ -62,6 +68,7 @@ const useHomeProps = () => {
     setIsPlaying,
     onLoad,
     animatedOverlayOnLoadStyle,
+    isMobileViewport,
   };
 };
 
