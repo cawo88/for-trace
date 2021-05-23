@@ -41,7 +41,7 @@ const Home = hoc(
                 <div className="mt-3" />
 
                 {isEnd ? (
-                  <h1 className={styles.heading}>Für Paul</h1>
+                  <h1 className={styles.heading}>Paul</h1>
                 ) : (
                   <h1 className={styles.heading}>Liebe soll dich begleiten</h1>
                 )}
