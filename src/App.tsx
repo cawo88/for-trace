@@ -1,7 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
 import { ErrorBoundary } from './components/ErrorBoundary';
-import { Loader } from './components/Loader';
 import { Error } from './pages/Error';
 
 const Home = lazy(() => import('./pages/Home').then((module) => ({ default: module.Home })));
@@ -11,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <ErrorBoundary>
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={''}>
           <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Home} />
