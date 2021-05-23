@@ -11,6 +11,7 @@ const useHomeProps = () => {
   const [onLoad, setOnLoad] = useState<boolean>(false);
 
   const { windowWidth } = useWindowSize();
+
   const isMobileViewport = windowWidth && windowWidth < 576;
 
   useEffect(() => {
