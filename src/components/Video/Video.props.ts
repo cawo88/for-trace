@@ -14,9 +14,6 @@ interface VideoProps {
 const useVideoProps = (props: VideoProps) => {
   const { videoRef, isPlaying, setIsEnd } = useVideoStore();
   const { windowHeight } = useWindowSize();
-
-  console.log('videoRef', videoRef);
-
   useEffect(() => {
     if (typeof document !== 'undefined' && videoRef.current && isPlaying) {
       videoRef.current.style.height = `${windowHeight}px`;

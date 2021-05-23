@@ -26,9 +26,6 @@ const VideoProvider = ({ children }: any) => {
   const [isPlaying, setIsPlaying] = useState<boolean>(false);
   const [isAutoPlay, setIsAutoPlay] = useState<boolean>(true);
   const [isEnd, setIsEnd] = useState<boolean>(false);
-
-  console.log('video ref', videoRef, 'isRestart', isRestart, 'is Playing', isPlaying);
-
   const handleSetIsRestart = useCallback(
     (isRestart) => {
       setIsRestart(isRestart);
@@ -51,7 +48,6 @@ const VideoProvider = ({ children }: any) => {
     (isPlaying) => {
       setIsPlaying(isPlaying);
       if (videoRef.current) {
-        console.log('is play');
         videoRef.current.play();
         videoRef.current.controls = true;
       }
@@ -61,7 +57,6 @@ const VideoProvider = ({ children }: any) => {
 
   const handleOnEnd = useCallback(
     (isEnd) => {
-      console.log('is end');
       setIsEnd(isEnd);
       setIsRestart(false);
       setIsPlaying(false);
