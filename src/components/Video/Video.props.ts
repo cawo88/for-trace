@@ -15,9 +15,9 @@ const useVideoProps = (props: VideoProps) => {
   const { videoRef, isPlaying, setIsEnd } = useVideoStore();
   const { windowHeight } = useWindowSize();
   useEffect(() => {
-    if (typeof document !== 'undefined' && videoRef.current && isPlaying) {
+    if (typeof document !== 'undefined' && videoRef?.current && isPlaying) {
       videoRef.current.style.height = `${windowHeight}px`;
-    } else if (videoRef.current) {
+    } else if (videoRef?.current) {
       videoRef.current.style.height = 'auto';
     }
   });
