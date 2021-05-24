@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://paul-paul.netlify.app",
   "theme_color": "#151515",
   "background_color": "#151515",
   "display": "standalone"
