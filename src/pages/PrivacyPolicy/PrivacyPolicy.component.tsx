@@ -8,9 +8,9 @@ const PrivacyPolicy = () => {
         <h1 className={styles.heading}>Datenschutzerklärung</h1>
         <p>
           Wir freuen uns sehr über Ihr Interesse an unserem Projekt. Datenschutz hat einen besonders hohen Stellenwert
-          für die Geschäftsleitung der Tracy Eitner. Eine Nutzung der Internetseiten der Tracy Eitner ist grundsätzlich
+          für die Geschäftsleitung der Tracy Eitner. Eine Nutzung der Internetseiten von Tracy Eitner ist grundsätzlich
           ohne jede Angabe personenbezogener Daten möglich. Sofern eine betroffene Person besondere Services unseres
-          Unternehmens über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung
+          Projektes über unsere Internetseite in Anspruch nehmen möchte, könnte jedoch eine Verarbeitung
           personenbezogener Daten erforderlich werden. Ist die Verarbeitung personenbezogener Daten erforderlich und
           besteht für eine solche Verarbeitung keine gesetzliche Grundlage, holen wir generell eine Einwilligung der
           betroffenen Person ein.
@@ -20,27 +20,31 @@ const PrivacyPolicy = () => {
           Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der Anschrift, E-Mail-Adresse oder
           Telefonnummer einer betroffenen Person, erfolgt stets im Einklang mit der Datenschutz-Grundverordnung und in
           Übereinstimmung mit den für die Tracy Eitner geltenden landesspezifischen Datenschutzbestimmungen. Mittels
-          dieser Datenschutzerklärung möchte unser Unternehmen die Öffentlichkeit über Art, Umfang und Zweck der von uns
+          dieser Datenschutzerklärung möchte unser Team die Öffentlichkeit über Art, Umfang und Zweck der von uns
           erhobenen, genutzten und verarbeiteten personenbezogenen Daten informieren. Ferner werden betroffene Personen
           mittels dieser Datenschutzerklärung über die ihnen zustehenden Rechte aufgeklärt.
         </p>
 
         <p>
-          Die Tracy Eitner hat als für die Verarbeitung Verantwortlicher zahlreiche technische und organisatorische
-          Maßnahmen umgesetzt, um einen möglichst lückenlosen Schutz der über diese Internetseite verarbeiteten
-          personenbezogenen Daten sicherzustellen. Dennoch können Internetbasierte Datenübertragungen grundsätzlich
-          Sicherheitslücken aufweisen, sodass ein absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund
-          steht es jeder betroffenen Person frei, personenbezogene Daten auch auf alternativen Wegen, beispielsweise
-          telefonisch, an uns zu übermitteln.
+          Als für die Verarbeitung Verantwortlicher hat Tracy Eitner zahlreiche technische und organisatorische
+          Maßnahmen getroffen, um einen möglichst umfassenden Schutz der über diese Website verarbeiteten
+          personenbezogenen Daten zu gewährleisten. Trotzdem können internetbasierte Datenübertragungen im Allgemeinen
+          Sicherheitslücken aufweisen, so dass ein absoluter Schutz nicht garantiert werden kann. Aus diesem Grund steht
+          es jedem Betroffenen frei, personenbezogene Daten auf alternative Weise, beispielsweise per Post, an uns zu
+          übermitteln.
         </p>
 
         <h2>1. Begriffsbestimmungen</h2>
         <p>
-          Die Datenschutzerklärung der Tracy Eitner beruht auf den Begrifflichkeiten, die durch den Europäischen
-          Richtlinien- und Verordnungsgeber beim Erlass der Datenschutz-Grundverordnung (DS-GVO) verwendet wurden.
-          Unsere Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für unsere Kunden und Geschäftspartner
-          einfach lesbar und verständlich sein. Um dies zu gewährleisten, möchten wir vorab die verwendeten
-          Begrifflichkeiten erläutern.
+          Die Website von Tracy Eitner sammelt jedes Mal eine Reihe allgemeiner Daten und Informationen, wenn eine
+          betroffene Person oder ein automatisiertes System die Website aufruft. Diese allgemeinen Daten und
+          Informationen werden in den Protokolldateien des Servers gespeichert. Die folgenden Daten können gesammelt
+          werden: (1) die verwendeten Browsertypen und -versionen, (2) das vom Zugriffssystem verwendete Betriebssystem,
+          (3) die Website, von der aus ein Zugriffssystem auf unsere Website zugreift (sogenannter Referrer), ( 4) die
+          Unterwebsites, auf die über ein Zugriffssystem auf unserer Website zugegriffen wird, (5) Datum und Uhrzeit des
+          Zugriffs auf die Website, (6) eine Internetprotokolladresse (IP-Adresse), (7) der Internetdienstanbieter von
+          das Zugriffssystem und (8) andere ähnliche Daten und Informationen, die dazu dienen, Gefahren bei Angriffen
+          auf unsere Informationstechnologiesysteme abzuwenden.
         </p>
 
         <p>Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:</p>
@@ -187,8 +191,8 @@ const PrivacyPolicy = () => {
           Internetseite zu gewährleisten sowie (4) um Strafverfolgungsbehörden im Falle eines Cyberangriffes die zur
           Strafverfolgung notwendigen Informationen bereitzustellen. Diese anonym erhobenen Daten und Informationen
           werden durch die Tracy Eitner daher einerseits statistisch und ferner mit dem Ziel ausgewertet, den
-          Datenschutz und die Datensicherheit in unserem Unternehmen zu erhöhen, um letztlich ein optimales Schutzniveau
-          für die von uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der Server-Logfiles
+          Datenschutz und die Datensicherheit in unserem Team zu erhöhen, um letztlich ein optimales Schutzniveau für
+          die von uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der Server-Logfiles
           werden getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten gespeichert.
         </p>
 
@@ -266,7 +270,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Möchte eine betroffene Person dieses Auskunftsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit an
-              einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.
+              den für die Verarbeitung Verantwortlichen wenden.
             </p>
           </li>
           <li>
@@ -281,7 +285,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Möchte eine betroffene Person dieses Berichtigungsrecht in Anspruch nehmen, kann sie sich hierzu jederzeit
-              an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.
+              an den für die Verarbeitung Verantwortlichen wenden.
             </p>
           </li>
           <li>
@@ -320,21 +324,20 @@ const PrivacyPolicy = () => {
             </ul>
             <p>
               Sofern einer der oben genannten Gründe zutrifft und eine betroffene Person die Löschung von
-              personenbezogenen Daten, die bei der Tracy Eitner gespeichert sind, veranlassen möchte, kann sie sich
-              hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter
-              der Tracy Eitner wird veranlassen, dass dem Löschverlangen unverzüglich nachgekommen wird.
+              personenbezogenen Daten, die bei Tracy Eitner gespeichert sind, veranlassen möchte, kann sie sich hierzu
+              jederzeit an den für die Verarbeitung Verantwortlichen wenden. Das Team der Tracy Eitner wird veranlassen,
+              dass dem Löschverlangen unverzüglich nachgekommen wird.
             </p>
 
             <p>
-              Wurden die personenbezogenen Daten von der Tracy Eitner öffentlich gemacht und ist unser Unternehmen als
-              Verantwortlicher gemäß Art. 17 Abs. 1 DS-GVO zur Löschung der personenbezogenen Daten verpflichtet, so
-              trifft die Tracy Eitner unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten
-              angemessene Maßnahmen, auch technischer Art, um andere für die Datenverarbeitung Verantwortliche, welche
-              die veröffentlichten personenbezogenen Daten verarbeiten, darüber in Kenntnis zu setzen, dass die
-              betroffene Person von diesen anderen für die Datenverarbeitung Verantwortlichen die Löschung sämtlicher
-              Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten
-              verlangt hat, soweit die Verarbeitung nicht erforderlich ist. Der Mitarbeiter der Tracy Eitner wird im
-              Einzelfall das Notwendige veranlassen.
+              Wenn die personenbezogenen Daten von Tracy Eitner veröffentlicht wurden und unser Team als
+              Verantwortlicher verpflichtet ist, die personenbezogenen Daten gemäß Art. 3 zu löschen. 17 Absatz 1 DSGVO,
+              Tracy Eitner wird unter Berücksichtigung der verfügbaren Technologie und der technischen
+              Implementierungskosten geeignete Maßnahmen ergreifen, um andere Datenverarbeiter, die die veröffentlichten
+              personenbezogenen Daten verarbeiten, darüber zu informieren, dass die betroffene Person die Löschung aller
+              Daten beantragt hat Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser
+              personenbezogenen Daten von diesen anderen Datenverarbeitern angefordert, sofern die Verarbeitung nicht
+              erforderlich ist. Tracy Eitner wird im Einzelfall das Notwendige arrangieren.
             </p>
           </li>
           <li>
@@ -367,10 +370,10 @@ const PrivacyPolicy = () => {
               </li>
             </ul>
             <p>
-              Sofern eine der oben genannten Voraussetzungen gegeben ist und eine betroffene Person die Einschränkung
-              von personenbezogenen Daten, die bei der Tracy Eitner gespeichert sind, verlangen möchte, kann sie sich
-              hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden. Der Mitarbeiter
-              der Tracy Eitner wird die Einschränkung der Verarbeitung veranlassen.
+              Wenn eine der oben genannten Bedingungen erfüllt ist und eine betroffene Person die Einschränkung der von
+              Tracy Eitner gespeicherten personenbezogenen Daten beantragen möchte, kann sie sich jederzeit an die für
+              die Verarbeitung verantwortliche Person wenden. Tracy Eitner wird dafür sorgen, dass die Verarbeitung
+              eingeschränkt wird.
             </p>
           </li>
           <li>
@@ -396,8 +399,8 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich die betroffene Person jederzeit an einen
-              Mitarbeiter der Tracy Eitner wenden.
+              Zur Geltendmachung des Rechts auf Datenübertragbarkeit kann sich die betroffene Person jederzeit Tracy
+              Eitner wenden.
             </p>
           </li>
           <li>
@@ -411,35 +414,35 @@ const PrivacyPolicy = () => {
             </p>
 
             <p>
-              Die Tracy Eitner verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei
-              denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen,
-              Rechten und Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung,
-              Ausübung oder Verteidigung von Rechtsansprüchen.
+              Tracy Eitner verarbeitet die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn,
+              wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die den Interessen, Rechten und
+              Freiheiten der betroffenen Person überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung
+              oder Verteidigung von Rechtsansprüchen.
             </p>
 
             <p>
-              Verarbeitet die Tracy Eitner personenbezogene Daten, um Direktwerbung zu betreiben, so hat die betroffene
+              Verarbeitet Tracy Eitner personenbezogene Daten, um Direktwerbung zu betreiben, so hat die betroffene
               Person das Recht, jederzeit Widerspruch gegen die Verarbeitung der personenbezogenen Daten zum Zwecke
               derartiger Werbung einzulegen. Dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in
               Verbindung steht. Widerspricht die betroffene Person gegenüber der Tracy Eitner der Verarbeitung für
-              Zwecke der Direktwerbung, so wird die Tracy Eitner die personenbezogenen Daten nicht mehr für diese Zwecke
+              Zwecke der Direktwerbung, so wird Tracy Eitner die personenbezogenen Daten nicht mehr für diese Zwecke
               verarbeiten.
             </p>
 
             <p>
               Zudem hat die betroffene Person das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben,
-              gegen die sie betreffende Verarbeitung personenbezogener Daten, die bei der Tracy Eitner zu
-              wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Art. 89 Abs. 1
-              DS-GVO erfolgen, Widerspruch einzulegen, es sei denn, eine solche Verarbeitung ist zur Erfüllung einer im
-              öffentlichen Interesse liegenden Aufgabe erforderlich.
+              gegen die sie betreffende Verarbeitung personenbezogener Daten, die bei Tracy Eitner zu wissenschaftlichen
+              oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Art. 89 Abs. 1 DS-GVO erfolgen,
+              Widerspruch einzulegen, es sei denn, eine solche Verarbeitung ist zur Erfüllung einer im öffentlichen
+              Interesse liegenden Aufgabe erforderlich.
             </p>
 
             <p>
-              Zur Ausübung des Rechts auf Widerspruch kann sich die betroffene Person direkt an jeden Mitarbeiter der
-              Tracy Eitner oder einen anderen Mitarbeiter wenden. Der betroffenen Person steht es ferner frei, im
-              Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft, ungeachtet der Richtlinie
-              2002/58/EG, ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische
-              Spezifikationen verwendet werden.
+              Zur Ausübung des Widerspruchsrechts kann sich die betroffene Person direkt an Tracy Eitner wenden. Der
+              betroffenen Person steht es auch frei, ungeachtet der Richtlinie 2002/58 / EG von ihrem Recht Gebrauch zu
+              machen, den Diensten der Informationsgesellschaft zu widersprechen, ihr Widerspruchsrecht von 2002/58 / EG
+              auszuüben und von ihrem Recht Gebrauch zu machen Objekt mittels automatisierter Verfahren unter Verwendung
+              technischer Spezifikationen verwendet werden.
             </p>
           </li>
           <li>
@@ -467,7 +470,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Möchte die betroffene Person Rechte mit Bezug auf automatisierte Entscheidungen geltend machen, kann sie
-              sich hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.
+              sich hierzu jederzeit an den für die Verarbeitung Verantwortlichen wenden.
             </p>
           </li>
           <li>
@@ -480,7 +483,7 @@ const PrivacyPolicy = () => {
 
             <p>
               Möchte die betroffene Person ihr Recht auf Widerruf einer Einwilligung geltend machen, kann sie sich
-              hierzu jederzeit an einen Mitarbeiter des für die Verarbeitung Verantwortlichen wenden.
+              hierzu jederzeit an den für die Verarbeitung Verantwortlichen wenden.
             </p>
           </li>
         </ul>

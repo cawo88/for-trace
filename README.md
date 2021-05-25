@@ -16,5 +16,4 @@ Visual: Mahir
 
 Web developer & design: Carol
 
-
 ###### [Create React App](https://github.com/facebook/create-react-app) powered up this project.
