@@ -1,8 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Route, Switch, BrowserRouter, Redirect } from 'react-router-dom';
-import { ErrorBoundary } from './components/ErrorBoundary';
+import { ErrorBoundary, Loader } from './components';
 import { Error } from './pages/Error';
-import { Loader } from './components/Loader';
 
 const Home = lazy(() => import('./pages/Home').then((module) => ({ default: module.Home })));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy').then((module) => ({ default: module.PrivacyPolicy })));

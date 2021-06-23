@@ -3,9 +3,7 @@ import { animated } from 'react-spring';
 import { useHomeProps } from './Home.props';
 import { hoc } from '../../ultility/hoc';
 import styles from './Home.module.scss';
-import { Video } from '../../components/Video';
-import { Graphic } from '../../components/Graphic';
-import { Trail } from '../../components/Trail';
+import { Video, Graphic, Trail } from '../../components';
 import VideoFile from '../../assets/videos/video.mp4';
 
 const Home = hoc(
